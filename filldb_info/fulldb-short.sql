@@ -332,11 +332,16 @@ INSERT INTO `group_message_reactions` VALUES
 (7,5,5,'1985-06-05 13:19:07');
 
 INSERT INTO `group_messages` VALUES
-(1,1,1,NULL,'image','Ea totam est iste facilis. Sit hic quisquam ut possimus adipisci quia. Quia et iure possimus minus ducimus omnis.','doloremque','1997-12-14 20:24:20'),
-(2,2,2,NULL,'video','Ut odit quibusdam quidem aperiam. Ratione voluptas autem vitae. Ad vero ex impedit eum et molestias.','nihil','2012-01-02 13:46:44'),
-(3,3,3,NULL,'image','Molestiae sit id vel maiores labore unde eveniet doloremque. Voluptatum minus iste doloremque mollitia.','est','1998-08-19 02:07:13'),
-(4,4,4,NULL,'audio','Omnis est et ut ea et. Qui doloremque delectus aut et. Iure assumenda voluptatem sunt autem et.','sed','2000-07-10 08:59:21'),
-(5,5,5,NULL,'image','Molestiae veritatis laborum natus omnis repellendus sunt. Et eius et quae sunt eum ratione tempora laborum. Quo iure ipsa est dicta eum. Vero fuga laboriosam dolorum est vel minus libero aut. Illo est a earum earum quidem doloremque corporis.','quibusdam','2010-09-26 04:57:11');
+(1,1,2,NULL,'audio','Maiores veritatis quod vitae ut cum. Aut et fugiat omnis minima id a commodi. Dolor iure magni dolor exercitationem rerum dolores aspernatur labore.','sapiente','2000-06-28 15:12:12'),
+(2,1,3,1,'video','Autem eveniet et et dolore quisquam et. Deserunt rem ut qui officiis explicabo.','ea','2019-09-22 17:52:45'),
+(3,1,4,2,'image','Et rerum ex ex provident perferendis. Molestiae voluptas ut et consequuntur. Ut hic quibusdam omnis voluptatum adipisci.','id','1977-03-21 06:23:09'),
+(4,1,5,3,'image','Reprehenderit eius consequuntur officiis iusto delectus. Dolorem veritatis asperiores consequatur aut rerum nostrum eum. Qui molestias dignissimos nisi nemo eveniet. Laborum nihil et ut quia et dolorem ut consequatur.','reprehenderit','2017-09-21 04:14:41'),
+(5,1,2,NULL,'video','Animi nostrum fugiat quidem cumque et itaque qui. Cum omnis cum corporis quia corporis eveniet. Temporibus vel sapiente laboriosam sequi voluptatem et sit cum. Est eaque modi esse sint.','dolorem','2014-06-25 09:33:54'),
+(6,1,2,5,'video','Velit quidem cum officiis aperiam. Qui id pariatur amet corrupti. Sit laudantium quasi minus vitae. Accusantium dolores inventore ut sit recusandae qui aut.','esse','1979-01-19 00:26:52'),
+(7,1,3,6,'video','Quisquam et molestiae nobis vel molestiae sint. Itaque recusandae nam magni molestiae dolores nihil. Et recusandae sed suscipit. Aut nisi omnis tempora quas sit quia ut.','amet','1998-06-24 13:39:41'),
+(8,1,4,NULL,'image','Aspernatur quod est ut ut voluptatum vitae ut. Amet ut et cumque. Aut dolor praesentium ea magnam laboriosam.','neque','2020-08-09 02:19:12'),
+(9,1,7,8,'text','Nesciunt dolor omnis voluptas. Occaecati consectetur debitis dolore modi sunt ab libero minus. Aut quam neque ut maiores. Id earum fugit voluptatem non doloribus atque. Quo neque non et corrupti incidunt.','ipsam','1985-10-22 08:24:52')
+;
 
 INSERT INTO `private_messages` VALUES
 (1,1,2,NULL,'audio','Maiores veritatis quod vitae ut cum. Aut et fugiat omnis minima id a commodi. Dolor iure magni dolor exercitationem rerum dolores aspernatur labore.','sapiente','2000-06-28 15:12:12'),
