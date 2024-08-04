@@ -38921,6 +38921,7 @@ CREATE TABLE `stories` (
   `filename` varchar(100) DEFAULT NULL,
   `views_count` int(10) unsigned DEFAULT NULL,
   `created_at` datetime DEFAULT current_timestamp(),
+  
   UNIQUE KEY `id` (`id`),
   KEY `user_id` (`user_id`),
   CONSTRAINT `stories_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`)
@@ -54108,7 +54109,7 @@ DROP TABLE IF EXISTS `users`;
 CREATE TABLE `users` (
   `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
   `firstname` varchar(100) DEFAULT NULL,
-  `lastname` varchar(100) DEFAULT NULL COMMENT '???????',
+  `lastname` varchar(100) DEFAULT NULL COMMENT 'фамиль',
   `login` varchar(100) DEFAULT NULL,
   `email` varchar(100) DEFAULT NULL,
   `password_hash` varchar(256) DEFAULT NULL,
@@ -54118,7 +54119,7 @@ CREATE TABLE `users` (
   UNIQUE KEY `email` (`email`),
   UNIQUE KEY `phone` (`phone`),
   KEY `idx_users_username` (`firstname`,`lastname`)
-) ENGINE=InnoDB AUTO_INCREMENT=101 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci COMMENT='????????????';
+) ENGINE=InnoDB AUTO_INCREMENT=101 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci COMMENT='фамиль';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
